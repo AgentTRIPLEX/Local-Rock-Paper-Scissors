@@ -8,7 +8,7 @@ import network
 
 class Main():
     def __init__(self):
-        self.CLIENT = network.Client(self.handle_message, "", 5555, (4096 ** 2)) # Put In The Host Address From Your Server File In The Blank String
+        self.CLIENT = network.Client(self.handle_message, "3.129.61.89", 5555, (4096 ** 2)) # Put In The Host Address From Your Server File In The Blank String
         self.window = tkinter.Tk()
         self.window.geometry("600x600")
         self.window.resizable(0,0)
